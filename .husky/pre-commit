@@ -1,0 +1,2 @@
+yarn lint-staged -p1 && \
+lerna exec --stream --loglevel success --concurrency 1 --exclude-dependents --since HEAD -- yarn lint-staged -p1

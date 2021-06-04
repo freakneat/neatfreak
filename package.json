@@ -1,0 +1,63 @@
+{
+  "name": "root",
+  "scripts": {
+    "format:etc": "prettier -w",
+    "format:pkg": "format-package -w",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "lint:staged": "lint-staged",
+    "postinstall": "husky install",
+    "publish:canary": "lerna publish --preid beta --canary --dist-tag next",
+    "publish:latest": "lerna publish",
+    "version:beta": "dotenv -- lerna version --preid beta",
+    "version:grad": "dotenv -- lerna version --conventional-graduate"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:@neatfreak/base",
+      "plugin:@neatfreak/node",
+      "plugin:@neatfreak/prettier"
+    ],
+    "ignorePatterns": [
+      "packages"
+    ],
+    "plugins": [
+      "@neatfreak"
+    ]
+  },
+  "lint-staged": {
+    "./*.@(md|json|yml|yaml)": [
+      "yarn format:etc"
+    ],
+    "./*.js": [
+      "yarn lint:fix"
+    ],
+    "./package.json": [
+      "yarn format:pkg"
+    ]
+  },
+  "prettier": "@therealklanni/prettier-config",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@commitlint/prompt-cli": "^12.1.4",
+    "@neatfreak/eslint-plugin": "workspace:^",
+    "@therealklanni/commitlint-config": "^0.1.0",
+    "@therealklanni/prettier-config": "^1.0.0",
+    "dotenv-cli": "^4.0.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "format-package": "^6.1.0",
+    "husky": "^6.0.0",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.0"
+  },
+  "packageManager": "yarn@3.1.0"
+}

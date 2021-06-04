@@ -1,0 +1,658 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`@neatfreak/eslint-plugin provides eslint configs 1`] = `
+Object {
+  "base": Object {
+    "env": Object {
+      "browser": true,
+      "es6": true,
+    },
+    "extends": Array [
+      "eslint:recommended",
+      "plugin:import/errors",
+    ],
+    "parserOptions": Object {
+      "ecmaVersion": 2020,
+    },
+    "plugins": Array [
+      "import",
+    ],
+    "rules": Object {
+      "accessor-pairs": "error",
+      "array-bracket-spacing": "error",
+      "array-callback-return": "error",
+      "arrow-body-style": "error",
+      "arrow-parens": "error",
+      "arrow-spacing": "error",
+      "block-scoped-var": "error",
+      "block-spacing": "error",
+      "brace-style": "error",
+      "callback-return": "error",
+      "camelcase": "error",
+      "class-methods-use-this": "warn",
+      "comma-spacing": "error",
+      "comma-style": "error",
+      "computed-property-spacing": "error",
+      "curly": "error",
+      "default-param-last": "error",
+      "dot-location": "error",
+      "dot-notation": "error",
+      "eol-last": "error",
+      "eqeqeq": "error",
+      "func-call-spacing": "error",
+      "generator-star-spacing": "error",
+      "guard-for-in": "error",
+      "handle-callback-err": Array [
+        "error",
+        "^.*(e|E)rr",
+      ],
+      "import/order": Array [
+        "error",
+        Object {
+          "groups": Array [
+            Array [
+              "builtin",
+              "external",
+            ],
+            "unknown",
+            Array [
+              "internal",
+              "parent",
+              "sibling",
+              "index",
+            ],
+          ],
+          "newlines-between": "always-and-inside-groups",
+        },
+      ],
+      "indent": Array [
+        "error",
+        2,
+      ],
+      "init-declarations": "error",
+      "key-spacing": "error",
+      "keyword-spacing": "error",
+      "line-comment-position": "error",
+      "linebreak-style": "error",
+      "lines-between-class-members": Array [
+        "error",
+        "always",
+        Object {
+          "exceptAfterSingleLine": true,
+        },
+      ],
+      "max-len": Array [
+        "warn",
+        Object {
+          "code": 100,
+        },
+      ],
+      "max-params": "warn",
+      "multiline-comment-style": Array [
+        "error",
+        "separate-lines",
+      ],
+      "multiline-ternary": Array [
+        "error",
+        "always-multiline",
+      ],
+      "new-cap": "warn",
+      "new-parens": "error",
+      "newline-per-chained-call": "error",
+      "no-alert": "error",
+      "no-array-constructor": "error",
+      "no-bitwise": "warn",
+      "no-caller": "error",
+      "no-confusing-arrow": "error",
+      "no-console": "error",
+      "no-continue": "error",
+      "no-div-regex": "error",
+      "no-duplicate-imports": "error",
+      "no-else-return": "error",
+      "no-empty-function": "warn",
+      "no-eval": "error",
+      "no-extend-native": "error",
+      "no-extra-bind": "error",
+      "no-extra-label": "error",
+      "no-extra-parens": "error",
+      "no-floating-decimal": "error",
+      "no-implicit-coercion": "error",
+      "no-implicit-globals": "error",
+      "no-implied-eval": "error",
+      "no-import-assign": "error",
+      "no-invalid-this": "error",
+      "no-iterator": "error",
+      "no-labels": "error",
+      "no-lone-blocks": "error",
+      "no-lonely-if": "error",
+      "no-loop-func": "error",
+      "no-magic-numbers": Array [
+        "warn",
+        Object {
+          "enforceConst": true,
+          "ignoreArrayIndexes": true,
+        },
+      ],
+      "no-mixed-operators": "error",
+      "no-multi-assign": "error",
+      "no-multi-spaces": "error",
+      "no-multi-str": "error",
+      "no-multiple-empty-lines": Array [
+        "error",
+        Object {
+          "max": 1,
+          "maxBOF": 0,
+          "maxEOF": 1,
+        },
+      ],
+      "no-negated-condition": "warn",
+      "no-nested-ternary": "error",
+      "no-new": "error",
+      "no-new-func": "error",
+      "no-new-object": "error",
+      "no-new-wrappers": "error",
+      "no-octal-escape": "error",
+      "no-param-reassign": Array [
+        "error",
+        Object {
+          "props": true,
+        },
+      ],
+      "no-proto": "error",
+      "no-return-assign": Array [
+        "error",
+        "always",
+      ],
+      "no-return-await": "error",
+      "no-script-url": "error",
+      "no-self-compare": "error",
+      "no-sequences": "error",
+      "no-shadow": "error",
+      "no-tabs": "error",
+      "no-template-curly-in-string": "warn",
+      "no-throw-literal": "error",
+      "no-trailing-spaces": "error",
+      "no-undefined": "warn",
+      "no-unmodified-loop-condition": "error",
+      "no-unneeded-ternary": "error",
+      "no-unused-expressions": Array [
+        "error",
+        Object {
+          "allowShortCircuit": true,
+        },
+      ],
+      "no-unused-vars": Array [
+        "error",
+        Object {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_",
+        },
+      ],
+      "no-use-before-define": "error",
+      "no-useless-call": "error",
+      "no-useless-computed-key": "error",
+      "no-useless-concat": "error",
+      "no-useless-constructor": "error",
+      "no-useless-rename": "error",
+      "no-useless-return": "error",
+      "no-var": "error",
+      "no-void": "error",
+      "no-whitespace-before-property": "error",
+      "nonblock-statement-body-position": "error",
+      "object-curly-spacing": Array [
+        "error",
+        "always",
+      ],
+      "object-shorthand": "error",
+      "one-var": Array [
+        "error",
+        "never",
+      ],
+      "one-var-declaration-per-line": "error",
+      "operator-assignment": "error",
+      "operator-linebreak": "error",
+      "padded-blocks": Array [
+        "error",
+        "never",
+      ],
+      "padding-line-between-statements": Array [
+        "error",
+        Object {
+          "blankLine": "always",
+          "next": "return",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "block-like",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "class",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "case",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "default",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "expression",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "any",
+          "next": "expression",
+          "prev": "expression",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "debugger",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "*",
+          "prev": "debugger",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "import",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "any",
+          "next": "import",
+          "prev": "import",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "export",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "cjs-import",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "any",
+          "next": "cjs-import",
+          "prev": "cjs-import",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "cjs-export",
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "always",
+          "next": "*",
+          "prev": Array [
+            "const",
+            "let",
+            "var",
+          ],
+        },
+        Object {
+          "blankLine": "always",
+          "next": Array [
+            "const",
+            "let",
+            "var",
+          ],
+          "prev": "*",
+        },
+        Object {
+          "blankLine": "any",
+          "next": Array [
+            "const",
+            "let",
+            "var",
+          ],
+          "prev": Array [
+            "const",
+            "let",
+            "var",
+          ],
+        },
+        Object {
+          "blankLine": "always",
+          "next": "*",
+          "prev": "directive",
+        },
+        Object {
+          "blankLine": "any",
+          "next": "directive",
+          "prev": "directive",
+        },
+      ],
+      "prefer-arrow-callback": "error",
+      "prefer-const": "error",
+      "prefer-destructuring": "error",
+      "prefer-named-capture-group": "warn",
+      "prefer-numeric-literals": "error",
+      "prefer-object-spread": "error",
+      "prefer-promise-reject-errors": "error",
+      "prefer-regex-literals": "error",
+      "prefer-rest-params": "error",
+      "prefer-spread": "error",
+      "prefer-template": "error",
+      "quote-props": Array [
+        "error",
+        "as-needed",
+      ],
+      "quotes": Array [
+        "error",
+        "single",
+      ],
+      "radix": "error",
+      "require-await": "off",
+      "require-unicode-regexp": "warn",
+      "rest-spread-spacing": "error",
+      "semi": Array [
+        "error",
+        "never",
+      ],
+      "semi-spacing": "error",
+      "semi-style": "error",
+      "space-before-blocks": "error",
+      "space-before-function-paren": Array [
+        "error",
+        Object {
+          "anonymous": "always",
+          "asyncArrow": "always",
+          "named": "never",
+        },
+      ],
+      "space-in-parens": "error",
+      "space-infix-ops": Array [
+        "error",
+        Object {
+          "int32Hint": true,
+        },
+      ],
+      "space-unary-ops": "error",
+      "spaced-comment": "error",
+      "switch-colon-spacing": "error",
+      "symbol-description": "error",
+      "template-curly-spacing": "error",
+      "template-tag-spacing": "error",
+      "unicode-bom": "error",
+      "vars-on-top": "error",
+      "wrap-iife": Array [
+        "error",
+        "outside",
+        Object {
+          "functionPrototypeMethods": true,
+        },
+      ],
+      "wrap-regex": "error",
+      "yield-star-spacing": "error",
+      "yoda": "error",
+    },
+  },
+  "cli": Object {
+    "extends": Array [
+      "./node",
+    ],
+    "rules": Object {
+      "no-console": "warn",
+      "no-sync": "off",
+    },
+  },
+  "jest": Object {
+    "env": Object {
+      "jest/globals": true,
+    },
+    "extends": Array [
+      "plugin:jest/recommended",
+    ],
+    "plugins": Array [
+      "jest",
+      "jest-formatting",
+    ],
+    "rules": Object {
+      "jest-formatting/padding-around-all": "error",
+      "jest/consistent-test-it": "error",
+      "jest/lowercase-name": "error",
+      "jest/no-alias-methods": "error",
+      "jest/no-duplicate-hooks": "error",
+      "jest/no-expect-resolves": "error",
+      "jest/no-test-return-statement": "error",
+      "jest/no-truthy-falsy": "error",
+      "jest/prefer-called-with": "warn",
+      "jest/prefer-hooks-on-top": "error",
+      "jest/prefer-spy-on": "error",
+      "jest/prefer-strict-equal": "error",
+      "jest/prefer-to-be-null": "error",
+      "jest/prefer-to-be-undefined": "error",
+      "jest/prefer-to-contain": "error",
+      "jest/prefer-to-have-length": "error",
+      "jest/prefer-todo": "error",
+      "jest/require-to-throw-message": "error",
+      "jest/require-top-level-describe": "error",
+      "jest/valid-title": "error",
+    },
+  },
+  "jest auto": Object {
+    "extends": Array [
+      "plugin:jest-formatting/strict",
+    ],
+    "overrides": Array [
+      Object {
+        "extends": Array [
+          "plugin:@neatfreak/jest",
+        ],
+        "files": Array [
+          "**/__?(tests|mocks)__/**",
+          "**/*?(.|_)test.*",
+          "**/*Test.*",
+          "**/*?(.|_)spec.*",
+          "**/*Spec.*",
+        ],
+      },
+    ],
+    "plugins": Array [
+      "@neatfreak",
+      "jest-formatting",
+    ],
+    "rules": Object {
+      "jest-formatting/padding-around-all": "error",
+    },
+  },
+  "lazy": Object {
+    "extends": Array [
+      "plugin:@neatfreak/base",
+      "plugin:@neatfreak/jest auto",
+      "plugin:@neatfreak/react auto",
+      "plugin:@neatfreak/typescript auto",
+      "plugin:@neatfreak/prettier",
+    ],
+    "overrides": Array [
+      Object {
+        "extends": Array [
+          "plugin:@neatfreak/node",
+        ],
+        "files": Array [
+          "*.js",
+        ],
+      },
+    ],
+    "plugins": Array [
+      "@neatfreak",
+    ],
+  },
+  "node": Object {
+    "env": Object {
+      "browser": false,
+      "node": true,
+    },
+    "extends": Array [
+      "plugin:node/recommended",
+    ],
+    "plugins": Array [
+      "node",
+    ],
+    "rules": Object {
+      "global-require": "off",
+      "no-buffer-constructor": "error",
+      "no-console": "error",
+      "no-mixed-requires": "error",
+      "no-new-require": "off",
+      "no-path-concat": "off",
+      "no-process-env": "off",
+      "no-process-exit": "off",
+      "no-sync": "off",
+      "node/exports-style": "error",
+      "node/global-require": "error",
+      "node/no-missing-import": "off",
+      "node/no-new-require": "error",
+      "node/no-path-concat": "error",
+      "node/no-process-env": "warn",
+      "node/no-process-exit": "error",
+      "node/no-sync": "error",
+      "node/no-unpublished-require": "off",
+      "node/prefer-promises/dns": "error",
+      "node/prefer-promises/fs": "error",
+    },
+  },
+  "prettier": Object {
+    "extends": Array [
+      "prettier",
+      "plugin:prettier/recommended",
+    ],
+    "plugins": Array [
+      "prettier",
+    ],
+  },
+  "react": Object {
+    "extends": Array [
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended",
+      "plugin:jsx-a11y/recommended",
+    ],
+    "plugins": Array [
+      "react",
+      "react-hooks",
+      "jsx-a11y",
+    ],
+    "settings": Object {
+      "react": Object {
+        "version": "detect",
+      },
+    },
+  },
+  "react auto": Object {
+    "overrides": Array [
+      Object {
+        "extends": Array [
+          "plugin:@neatfreak/react",
+        ],
+        "files": Array [
+          "**/*.?(t|j)sx",
+        ],
+      },
+    ],
+    "plugins": Array [
+      "@neatfreak",
+    ],
+  },
+  "typescript": Object {
+    "extends": Array [
+      "plugin:@typescript-eslint/recommended",
+      "plugin:@typescript-eslint/recommended-requiring-type-checking",
+      "plugin:import/typescript",
+    ],
+    "parser": "@typescript-eslint/parser",
+    "plugins": Array [
+      "@typescript-eslint",
+    ],
+    "rules": Object {
+      "@typescript-eslint/array-type": "error",
+      "@typescript-eslint/brace-style": "error",
+      "@typescript-eslint/explicit-member-accessibility": Array [
+        "error",
+        Object {
+          "accessibility": "explicit",
+          "overrides": Object {
+            "constructors": "no-public",
+          },
+        },
+      ],
+      "@typescript-eslint/func-call-spacing": "error",
+      "@typescript-eslint/indent": Array [
+        "error",
+        2,
+      ],
+      "@typescript-eslint/no-extra-non-null-assertion": "error",
+      "@typescript-eslint/no-extra-parens": Array [
+        "error",
+      ],
+      "@typescript-eslint/no-extra-semi": Array [
+        "error",
+      ],
+      "@typescript-eslint/no-extraneous-class": "error",
+      "@typescript-eslint/no-floating-promises": "warn",
+      "@typescript-eslint/no-implied-eval": "off",
+      "@typescript-eslint/no-throw-literal": "error",
+      "@typescript-eslint/no-unnecessary-condition": "error",
+      "@typescript-eslint/no-unnecessary-type-arguments": "error",
+      "@typescript-eslint/no-unused-expressions": Array [
+        "error",
+      ],
+      "@typescript-eslint/no-unused-vars": Array [
+        "error",
+        Object {
+          "argsIgnorePattern": "^_",
+          "varsIgnorePattern": "^_",
+        },
+      ],
+      "@typescript-eslint/prefer-for-of": "error",
+      "@typescript-eslint/prefer-nullish-coalescing": "error",
+      "@typescript-eslint/prefer-optional-chain": "error",
+      "@typescript-eslint/prefer-regexp-exec": "error",
+      "@typescript-eslint/promise-function-async": "error",
+      "@typescript-eslint/quotes": Array [
+        "error",
+        "single",
+      ],
+      "@typescript-eslint/require-await": "off",
+      "@typescript-eslint/restrict-plus-operands": "error",
+      "@typescript-eslint/return-await": "warn",
+      "@typescript-eslint/space-before-function-paren": Array [
+        "error",
+        Object {
+          "anonymous": "always",
+          "asyncArrow": "always",
+          "named": "never",
+        },
+      ],
+      "@typescript-eslint/unified-signatures": "error",
+      "node/no-unsupported-features/es-syntax": "off",
+    },
+  },
+  "typescript auto": Object {
+    "overrides": Array [
+      Object {
+        "extends": Array [
+          "plugin:@neatfreak/typescript",
+        ],
+        "files": Array [
+          "**/*.ts?(x)",
+        ],
+      },
+    ],
+    "plugins": Array [
+      "@neatfreak",
+    ],
+  },
+}
+`;
